@@ -1,0 +1,25 @@
+{
+  "name": "@funcmaticjs/accesslog-plugin",
+  "version": "0.0.1",
+  "description": "Log a line at the end of a request using NGINX access_log format.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Daniel Jhin Yoo <danieljyoo@gmail.com> (https://github.com/danieljyoo)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/funcmaticjs/accesslog-plugin.git"
+  },
+  "dependencies": {
+    "object-path": "^0.11.4"
+  },
+  "devDependencies": {
+    "@funcmaticjs/funcmatic": "0.0.1",
+    "jest": "^24.8.0"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  }
+}
